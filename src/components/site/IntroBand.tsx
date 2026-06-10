@@ -17,7 +17,7 @@ export function IntroBand() {
       <div className="relative mx-auto grid max-w-7xl gap-12 px-4 py-20 md:grid-cols-12 md:py-28">
         <div className="md:col-span-5">
           <h2 className="font-display text-4xl leading-tight sm:text-5xl">
-            Strategic Medicare &amp; ACA planning starts here.
+            Strategic Medicare &amp; ACA planning starts&nbsp;here.
           </h2>
         </div>
 
