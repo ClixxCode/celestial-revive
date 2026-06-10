@@ -12,15 +12,9 @@ export function MediaCard() {
         >
           <div className="relative flex aspect-video items-center justify-center bg-gradient-to-br from-brand-deep to-brand md:aspect-auto md:w-1/2">
             <PlayCircle className="h-20 w-20 text-white/90 transition-transform group-hover:scale-110" strokeWidth={1.2} />
-            <span className="absolute bottom-4 left-4 rounded-full bg-white/95 px-3 py-1 text-xs font-bold uppercase tracking-wider text-brand-deep">
-              NBC29
-            </span>
           </div>
           <div className="flex flex-1 flex-col justify-center p-8 md:p-12">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-brand">
-              In the news
-            </p>
-            <h2 className="mt-3 font-display text-3xl text-brand-deep sm:text-4xl">
+            <h2 className="font-display text-3xl text-brand-deep sm:text-4xl">
               As Seen On NBC
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-foreground/75">

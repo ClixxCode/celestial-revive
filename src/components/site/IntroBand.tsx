@@ -16,10 +16,7 @@ export function IntroBand() {
 
       <div className="relative mx-auto grid max-w-7xl gap-12 px-4 py-20 md:grid-cols-12 md:py-28">
         <div className="md:col-span-5">
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/70">
-            Steinlage Insurance Agency
-          </p>
-          <h2 className="mt-4 font-display text-4xl leading-tight sm:text-5xl">
+          <h2 className="font-display text-4xl leading-tight sm:text-5xl">
             Strategic Medicare &amp; ACA planning starts here.
           </h2>
         </div>

@@ -5,10 +5,6 @@ export function Hero() {
     <section id="top" className="relative overflow-hidden bg-brand-soft">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-20 md:grid-cols-12 md:py-28">
         <div className="md:col-span-7">
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-brand/20 bg-white/70 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.18em] text-brand">
-            <span className="h-1.5 w-1.5 rounded-full bg-brand" />
-            Family owned since 1950
-          </div>
           <h1 className="text-balance font-display text-5xl leading-[1.05] text-brand-deep sm:text-6xl md:text-7xl">
             Over 100 Years of <em className="not-italic text-brand">Combined Experience</em>
           </h1>
