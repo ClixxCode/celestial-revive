@@ -82,8 +82,8 @@ export function Hero() {
                   Generations
                 </dt>
               </div>
-              <div className="ml-auto hidden h-16 w-px self-center bg-gradient-to-b from-transparent via-white/30 to-transparent md:block" />
             </div>
+
           </dl>
 
 
