@@ -10,7 +10,6 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
-import faviconAsset from "../assets/favicon.png.asset.json";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 
 function NotFoundComponent() {
@@ -81,11 +80,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "Steinlage Insurance Agency" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { title: "Steinlage" },
+      { property: "og:title", content: "Steinlage" },
+      { name: "twitter:title", content: "Steinlage" },
+      { name: "description", content: "Steinlage Remix is a modern web application that recreates the Steinlage Agency website." },
+      { property: "og:description", content: "Steinlage Remix is a modern web application that recreates the Steinlage Agency website." },
+      { name: "twitter:description", content: "Steinlage Remix is a modern web application that recreates the Steinlage Agency website." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/579589d0-ef05-41d0-bf4e-d505c712970a/id-preview-3c3c0512--2aaff33e-cfea-474d-abc8-08f0a89f7e84.lovable.app-1781115116635.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/579589d0-ef05-41d0-bf4e-d505c712970a/id-preview-3c3c0512--2aaff33e-cfea-474d-abc8-08f0a89f7e84.lovable.app-1781115116635.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", type: "image/png", href: faviconAsset.url },
-      { rel: "apple-touch-icon", href: faviconAsset.url },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
