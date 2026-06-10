@@ -29,14 +29,18 @@ export function Hero() {
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 py-24 md:py-36 lg:py-44">
-        <div className="max-w-3xl text-white">
-          <h1 className="text-balance font-display text-5xl leading-[1.05] sm:text-6xl md:text-7xl lg:text-8xl">
+        <div className="max-w-5xl text-white">
+          <h1 className="font-display text-4xl leading-[1.1] sm:text-5xl md:whitespace-nowrap md:text-6xl lg:text-7xl">
             Over 100 Years of{" "}
             <span
               key={wordIndex}
-              className="inline-block animate-fade-in not-italic text-white/95"
+              className="relative inline-block animate-fade-in not-italic"
             >
-              {ROTATING_WORDS[wordIndex]}
+              <span
+                aria-hidden="true"
+                className="absolute inset-x-[-0.15em] bottom-[0.08em] top-[0.18em] -z-10 -rotate-1 rounded-sm bg-highlight"
+              />
+              <span className="relative text-white">{ROTATING_WORDS[wordIndex]}</span>
             </span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/85 md:text-xl">
