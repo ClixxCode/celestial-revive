@@ -71,7 +71,7 @@ export function QuoteBlock() {
           <img
             src={signatureAsset.url}
             alt="William H. Steinlage signature"
-            className="mt-10 h-28 w-auto opacity-90 sm:h-36 md:h-44"
+            className="mt-8 h-16 w-auto opacity-90"
             loading="lazy"
           />
         </figure>
