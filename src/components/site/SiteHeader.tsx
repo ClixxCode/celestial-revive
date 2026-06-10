@@ -1,4 +1,4 @@
-import { Phone, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logoAsset from "@/assets/steinlage-logo-white.png.asset.json";
 
