@@ -1,12 +1,30 @@
+import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
 
+const ROTATING_WORDS = ["Drive", "Passion", "Talent", "Integrity", "Experience"];
+
 export function Hero() {
+  const [wordIndex, setWordIndex] = useState(0);
+
+  useEffect(() => {
+    const id = setInterval(() => {
+      setWordIndex((i) => (i + 1) % ROTATING_WORDS.length);
+    }, 2200);
+    return () => clearInterval(id);
+  }, []);
+
   return (
     <section id="top" className="relative overflow-hidden bg-brand-soft">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-20 md:grid-cols-12 md:py-28">
         <div className="md:col-span-7">
           <h1 className="text-balance font-display text-5xl leading-[1.05] text-brand-deep sm:text-6xl md:text-7xl">
-            Over 100 Years of <em className="not-italic text-brand">Combined Experience</em>
+            Over 100 Years of{" "}
+            <span
+              key={wordIndex}
+              className="inline-block animate-fade-in not-italic text-brand"
+            >
+              {ROTATING_WORDS[wordIndex]}
+            </span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-foreground/80">
             To get started, please schedule an appointment today. Personalized Medicare and ACA
