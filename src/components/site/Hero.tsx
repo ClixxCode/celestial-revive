@@ -58,12 +58,6 @@ export function Hero() {
               Contact Us
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
-            <a
-              href="tel:6365615060"
-              className="inline-flex items-center gap-2 rounded-md border border-white/40 px-6 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-white/10"
-            >
-              Call 636-561-5060
-            </a>
           </div>
 
           <dl className="mt-14 flex flex-col items-stretch justify-between gap-8 border-t border-white/20 pt-10 md:flex-row md:gap-12">
