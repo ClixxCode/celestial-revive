@@ -66,20 +66,44 @@ export function Hero() {
             </a>
           </div>
 
-          <dl className="mt-14 grid max-w-lg grid-cols-3 gap-6 border-t border-white/20 pt-8">
-            <div>
-              <dt className="text-xs uppercase tracking-wider text-white/70">Years</dt>
-              <dd className="mt-1 font-display text-3xl text-white">100+</dd>
+          <dl className="mt-14 flex flex-col items-stretch justify-between gap-8 border-t border-white/20 pt-10 md:flex-row md:gap-12">
+            <div className="flex flex-1 items-start gap-4">
+              <div>
+                <dt className="mb-1 text-[10px] font-light uppercase tracking-[0.3em] text-white/60">
+                  Years
+                </dt>
+                <dd className="font-display text-5xl font-medium leading-none text-white md:text-6xl">
+                  100<span className="align-top text-2xl opacity-80 md:text-3xl">+</span>
+                </dd>
+              </div>
+              <div className="ml-auto hidden h-16 w-px self-center bg-gradient-to-b from-transparent via-white/30 to-transparent md:block" />
             </div>
-            <div>
-              <dt className="text-xs uppercase tracking-wider text-white/70">Carriers</dt>
-              <dd className="mt-1 font-display text-3xl text-white">50+</dd>
+
+            <div className="flex flex-1 items-start gap-4">
+              <div>
+                <dt className="mb-1 text-[10px] font-light uppercase tracking-[0.3em] text-white/60">
+                  Carriers
+                </dt>
+                <dd className="font-display text-5xl font-medium leading-none text-white md:text-6xl">
+                  50<span className="align-top text-2xl opacity-80 md:text-3xl">+</span>
+                </dd>
+              </div>
+              <div className="ml-auto hidden h-16 w-px self-center bg-gradient-to-b from-transparent via-white/30 to-transparent md:block" />
             </div>
-            <div>
-              <dt className="text-xs uppercase tracking-wider text-white/70">Generations</dt>
-              <dd className="mt-1 font-display text-3xl text-white">3</dd>
+
+            <div className="flex flex-1 items-start gap-4">
+              <div>
+                <dt className="mb-1 text-[10px] font-light uppercase tracking-[0.3em] text-white/60">
+                  Generations
+                </dt>
+                <dd className="font-display text-5xl font-medium leading-none text-white md:text-6xl">
+                  3
+                </dd>
+              </div>
             </div>
           </dl>
+
+          <div className="mt-8 h-1 w-12 bg-highlight" aria-hidden="true" />
         </div>
       </div>
     </section>
