@@ -5,7 +5,7 @@ export function FooterCTA() {
     <section id="contact" className="bg-brand-deep text-brand-foreground">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-4 py-12 text-center md:flex-row md:text-left">
         <h2 className="font-display text-3xl sm:text-4xl">
-          Contact us today for a plan assessment.
+          Contact us today for a plan&nbsp;assessment.
         </h2>
         <a
           href="tel:6365615060"
