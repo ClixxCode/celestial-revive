@@ -36,8 +36,8 @@ function Index() {
       <SiteHeader />
       <main>
         <Hero />
-        <FeatureCards />
         <TrustStrip />
+        <FeatureCards />
         <IntroBand />
         <QuoteBlock />
         <FamilySection />
