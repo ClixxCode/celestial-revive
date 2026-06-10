@@ -61,40 +61,41 @@ export function Hero() {
           </div>
 
           <dl className="mt-14 flex flex-col items-stretch justify-between gap-8 border-t border-white/20 pt-10 md:flex-row md:gap-12">
-            <div className="flex flex-1 items-start gap-4">
-              <div>
-                <dt className="mb-1 text-[10px] font-light uppercase tracking-[0.3em] text-white/60">
-                  Years
-                </dt>
+            <div className="flex flex-1 items-center gap-4">
+              <div className="flex items-baseline gap-3">
                 <dd className="font-display text-5xl font-medium leading-none text-white md:text-6xl">
                   100<span className="align-top text-2xl opacity-80 md:text-3xl">+</span>
                 </dd>
+                <dt className="font-display text-3xl font-medium leading-none text-white md:text-4xl">
+                  Years
+                </dt>
               </div>
               <div className="ml-auto hidden h-16 w-px self-center bg-gradient-to-b from-transparent via-white/30 to-transparent md:block" />
             </div>
 
-            <div className="flex flex-1 items-start gap-4">
-              <div>
-                <dt className="mb-1 text-[10px] font-light uppercase tracking-[0.3em] text-white/60">
-                  Carriers
-                </dt>
+            <div className="flex flex-1 items-center gap-4">
+              <div className="flex items-baseline gap-3">
                 <dd className="font-display text-5xl font-medium leading-none text-white md:text-6xl">
                   50<span className="align-top text-2xl opacity-80 md:text-3xl">+</span>
                 </dd>
+                <dt className="font-display text-3xl font-medium leading-none text-white md:text-4xl">
+                  Carriers
+                </dt>
               </div>
               <div className="ml-auto hidden h-16 w-px self-center bg-gradient-to-b from-transparent via-white/30 to-transparent md:block" />
             </div>
 
-            <div className="flex flex-1 items-start gap-4">
-              <div>
-                <dt className="mb-1 text-[10px] font-light uppercase tracking-[0.3em] text-white/60">
-                  Generations
-                </dt>
+            <div className="flex flex-1 items-center gap-4">
+              <div className="flex items-baseline gap-3">
                 <dd className="font-display text-5xl font-medium leading-none text-white md:text-6xl">
                   3
                 </dd>
+                <dt className="font-display text-3xl font-medium leading-none text-white md:text-4xl">
+                  Generations
+                </dt>
               </div>
             </div>
+
           </dl>
 
           <div className="mt-8 h-1 w-12 bg-highlight" aria-hidden="true" />
