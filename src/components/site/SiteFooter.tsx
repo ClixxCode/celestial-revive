@@ -10,12 +10,12 @@ export function SiteFooter() {
           src={skylineAsset.url}
           alt=""
           aria-hidden="true"
-          className="h-full w-full object-cover opacity-40"
+          className="h-full w-full object-cover"
           loading="lazy"
           width={1920}
           height={1080}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-brand-deep/85 via-brand-deep/80 to-brand-deep" />
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-deep/60 via-brand-deep/55 to-brand-deep/85" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 py-14">
