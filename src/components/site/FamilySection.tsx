@@ -18,10 +18,7 @@ export function FamilySection() {
         </div>
 
         <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-brand">
-            Since 1950
-          </p>
-          <h2 className="mt-4 font-display text-4xl leading-tight text-brand-deep sm:text-5xl">
+          <h2 className="font-display text-4xl leading-tight text-brand-deep sm:text-5xl">
             Our family helping your family.
           </h2>
           <p className="mt-6 text-base leading-relaxed text-foreground/80 md:text-lg">
