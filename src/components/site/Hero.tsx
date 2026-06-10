@@ -92,12 +92,10 @@ export function Hero() {
                 </dd>
                 <dt className="font-display text-3xl font-medium leading-none text-white md:text-4xl">
                   Generations
-
-                <dd className="font-display text-5xl font-medium leading-none text-white md:text-6xl">
-                  3
-                </dd>
+                </dt>
               </div>
             </div>
+
           </dl>
 
           <div className="mt-8 h-1 w-12 bg-highlight" aria-hidden="true" />
