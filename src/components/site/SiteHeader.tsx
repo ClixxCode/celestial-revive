@@ -1,4 +1,4 @@
-import { Menu, X } from "lucide-react";
+import { Phone, Menu, X } from "lucide-react";
 import { useState } from "react";
 import logoAsset from "@/assets/steinlage-logo-white.png.asset.json";
 
@@ -18,6 +18,20 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 bg-brand text-brand-foreground shadow-soft">
+      {/* utility bar */}
+      <div className="border-b border-white/10">
+        <div className="mx-auto flex max-w-7xl items-center justify-end px-4 py-2 text-xs sm:text-sm">
+          <div className="flex items-center gap-5">
+            <a
+              href="tel:6365615060"
+              className="flex items-center gap-1.5 font-medium transition-opacity hover:opacity-80"
+            >
+              <Phone className="h-3.5 w-3.5" />
+              636-561-5060
+            </a>
+          </div>
+        </div>
+      </div>
 
       {/* main nav */}
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-5">
