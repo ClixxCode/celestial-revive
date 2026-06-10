@@ -18,13 +18,15 @@ export function Hero() {
   return (
     <section id="top" className="relative overflow-hidden">
       <div className="absolute inset-0">
-        <img
-          src={heroAsset.url}
-          alt=""
+        <video
+          src={heroVideo.url}
+          poster={heroAsset.url}
+          autoPlay
+          muted
+          loop
+          playsInline
           aria-hidden="true"
           className="h-full w-full object-cover"
-          width={1920}
-          height={1280}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-deep/85 via-brand-deep/70 to-brand-deep/40" />
       </div>
