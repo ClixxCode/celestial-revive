@@ -19,7 +19,7 @@ export function FamilySection() {
 
         <div>
           <h2 className="font-display text-4xl leading-tight text-brand-deep sm:text-5xl">
-            Our family helping your family.
+            Our family helping your&nbsp;family.
           </h2>
           <p className="mt-6 text-base leading-relaxed text-foreground/80 md:text-lg">
             We have over 100 years of combined experience. For three generations, the Steinlage
