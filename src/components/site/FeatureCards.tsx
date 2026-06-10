@@ -36,8 +36,8 @@ export function FeatureCards() {
             const isDark = variant === "dark";
             const cardBg = isDark ? "bg-brand-deep" : "bg-card";
             const cardShadow = isDark
-              ? "shadow-[20px_20px_0_0_hsl(var(--highlight)/0.18)]"
-              : "shadow-[20px_20px_0_0_hsl(var(--brand-deep)/0.06)] hover:shadow-[20px_20px_0_0_hsl(var(--brand-deep)/0.12)]";
+              ? "shadow-[20px_20px_0_0_color-mix(in_oklab,var(--highlight)_18%,transparent)]"
+              : "shadow-[20px_20px_0_0_color-mix(in_oklab,var(--brand-deep)_8%,transparent)] hover:shadow-[20px_20px_0_0_color-mix(in_oklab,var(--brand-deep)_14%,transparent)]";
             const sideBorder =
               variant === "light-orange"
                 ? "border-l-4 border-highlight"
