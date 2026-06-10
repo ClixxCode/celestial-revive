@@ -29,12 +29,6 @@ export function SiteHeader() {
               <Phone className="h-3.5 w-3.5" />
               636-561-5060
             </a>
-            <a href="#blog" className="hidden transition-opacity hover:opacity-80 sm:inline">
-              Blog
-            </a>
-            <a href="#careers" className="hidden transition-opacity hover:opacity-80 sm:inline">
-              Careers
-            </a>
           </div>
         </div>
       </div>
