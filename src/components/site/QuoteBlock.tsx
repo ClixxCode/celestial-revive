@@ -1,4 +1,4 @@
-import signatureAsset from "@/assets/steinlage-signature.jpg.asset.json";
+import signatureAsset from "@/assets/steinlage-signature.png.asset.json";
 import founderAsset from "@/assets/william-steinlage.png.asset.json";
 
 export function QuoteBlock() {
