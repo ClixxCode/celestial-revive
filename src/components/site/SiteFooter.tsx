@@ -15,7 +15,7 @@ export function SiteFooter() {
           width={1920}
           height={1080}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-brand-deep/60 via-brand-deep/55 to-brand-deep/85" />
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-deep/30 via-brand-deep/40 to-brand-deep/70" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 py-14">
