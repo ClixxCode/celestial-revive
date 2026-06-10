@@ -43,7 +43,9 @@ function Index() {
         <IntroBand />
         <QuoteBlock />
         <FamilySection />
+        <Testimonials />
         <MediaCard />
+
         <FooterCTA />
       </main>
       <SiteFooter />
