@@ -43,7 +43,7 @@ export function QuoteBlock() {
         </div>
 
         <figure className="md:col-span-7">
-          <blockquote className="font-display text-3xl leading-[1.2] text-brand-deep sm:text-4xl md:text-5xl">
+          <blockquote className="font-display text-2xl italic leading-[1.3] text-brand-deep sm:text-3xl md:text-[2rem]">
             Quality is never an accident; it is always the result of high intention, sincere
             effort, intelligent direction and skillful execution.{" "}
             <span className="text-brand">
