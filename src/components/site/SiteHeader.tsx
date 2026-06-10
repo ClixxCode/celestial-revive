@@ -1,4 +1,4 @@
-import { Phone, Facebook, Youtube, Menu, X } from "lucide-react";
+import { Phone, Menu, X } from "lucide-react";
 import { useState } from "react";
 import logoAsset from "@/assets/steinlage-logo-white.png.asset.json";
 
@@ -20,23 +20,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 bg-brand text-brand-foreground shadow-soft">
       {/* utility bar */}
       <div className="border-b border-white/10">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 text-xs sm:text-sm">
-          <div className="flex items-center gap-3">
-            <a
-              href="https://www.facebook.com/Steinlageinsuranceagency/"
-              aria-label="Facebook"
-              className="rounded p-1 transition-colors hover:bg-white/10"
-            >
-              <Facebook className="h-4 w-4" />
-            </a>
-            <a
-              href="https://www.youtube.com/channel/UCfz87FaZ62z92pB_KDUikVQ/"
-              aria-label="YouTube"
-              className="rounded p-1 transition-colors hover:bg-white/10"
-            >
-              <Youtube className="h-4 w-4" />
-            </a>
-          </div>
+        <div className="mx-auto flex max-w-7xl items-center justify-end px-4 py-2 text-xs sm:text-sm">
           <div className="flex items-center gap-5">
             <a
               href="tel:6365615060"
