@@ -34,13 +34,13 @@ export function Hero() {
             Over 100 Years of{" "}
             <span
               key={wordIndex}
-              className="relative inline-block animate-fade-in not-italic"
+              className="relative isolate inline-block animate-fade-in not-italic"
             >
               <span
                 aria-hidden="true"
-                className="absolute inset-x-[-0.15em] bottom-[0.08em] top-[0.18em] -z-10 -rotate-1 rounded-sm bg-highlight"
+                className="absolute inset-x-[-0.15em] bottom-[0.08em] top-[0.18em] z-0 -rotate-1 rounded-sm bg-highlight"
               />
-              <span className="relative text-white">{ROTATING_WORDS[wordIndex]}</span>
+              <span className="relative z-10 text-white">{ROTATING_WORDS[wordIndex]}</span>
             </span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/85 md:text-xl">
