@@ -1,10 +1,24 @@
 import { Facebook, Youtube } from "lucide-react";
 import logoAsset from "@/assets/steinlage-logo-white.png.asset.json";
+import skylineAsset from "@/assets/stl-skyline.jpg.asset.json";
 
 export function SiteFooter() {
   return (
-    <footer className="bg-brand text-brand-foreground">
-      <div className="mx-auto max-w-7xl px-4 py-14">
+    <footer className="relative overflow-hidden bg-brand-deep text-brand-foreground">
+      <div className="absolute inset-0">
+        <img
+          src={skylineAsset.url}
+          alt=""
+          aria-hidden="true"
+          className="h-full w-full object-cover opacity-40"
+          loading="lazy"
+          width={1920}
+          height={1080}
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-brand-deep/85 via-brand-deep/80 to-brand-deep" />
+      </div>
+
+      <div className="relative mx-auto max-w-7xl px-4 py-14">
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-5">
             <img
