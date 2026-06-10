@@ -1,4 +1,5 @@
 import { PlayCircle } from "lucide-react";
+import nbcThumb from "@/assets/nbc-interview.png.asset.json";
 
 export function MediaCard() {
   return (
@@ -10,9 +11,18 @@ export function MediaCard() {
           rel="noopener noreferrer"
           className="group flex flex-col items-stretch overflow-hidden rounded-2xl border border-brand/15 bg-card shadow-soft transition-all hover:-translate-y-1 hover:shadow-elevated md:flex-row"
         >
-          <div className="relative flex aspect-video items-center justify-center bg-gradient-to-br from-brand-deep to-brand md:aspect-auto md:w-1/2">
-            <PlayCircle className="h-20 w-20 text-white/90 transition-transform group-hover:scale-110" strokeWidth={1.2} />
+          <div className="relative aspect-video overflow-hidden md:aspect-auto md:w-1/2">
+            <img
+              src={nbcThumb.url}
+              alt="Margo Steinlage interviewed on NBC's Community Conversation"
+              className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-brand-deep/30" />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <PlayCircle className="h-20 w-20 text-white drop-shadow-lg transition-transform group-hover:scale-110" strokeWidth={1.2} />
+            </div>
           </div>
+
           <div className="flex flex-1 flex-col justify-center p-8 md:p-12">
             <h2 className="font-display text-3xl text-brand-deep sm:text-4xl">
               As Seen On NBC
