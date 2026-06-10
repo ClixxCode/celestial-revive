@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
 import heroAsset from "@/assets/hero-family.jpg.asset.json";
+import heroVideo from "@/assets/steinlage-hero.mp4.asset.json";
 
 const ROTATING_WORDS = ["Drive", "Passion", "Talent", "Integrity", "Experience"];
 
